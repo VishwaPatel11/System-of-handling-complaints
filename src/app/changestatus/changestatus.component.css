@@ -1,0 +1,66 @@
+
+
+  /* Style for the page container */
+  .container {
+    background-color: #121111;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(179, 74, 74);
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 30px;
+  }
+
+  /* Style for the header */
+  header {
+    background-color: rgb(179, 74, 74);
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Style for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  /* Style for the input field */
+  input[type="text"] {
+    border: 2px solid rgb(179, 74, 74);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    font-size: 18px;
+    color: #333;
+    outline: none;
+  }
+
+  /* Style for the submit button */
+  input[type="submit"] {
+    background-color: rgb(179, 74, 74);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Hover style for the submit button */
+  input[type="submit"]:hover {
+    background-color: rgb(179, 74, 74);
+  }

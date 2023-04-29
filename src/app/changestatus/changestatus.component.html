@@ -1,0 +1,14 @@
+<body>
+    <div class="container">
+      <header>Change Status to Completed</header>
+      <form>
+        <label for="complaint-id" style="color:white;">Complaint ID:</label>
+        <input type="text" [(ngModel)]="id" id="complaint-id" name="complaint-id" placeholder="Enter complaint ID">
+        <input  (click)="searchdata()" type="submit">
+      </form>
+    </div>
+    <h2 *ngIf="showelse" style="color: red;">Enter Valid Id</h2>
+    {{count}}
+    <h2 *ngIf="show" style="color: green;">Successfully Changed the Status</h2>
+  </body>
+
