@@ -1,0 +1,15 @@
+<body>
+<header>
+  <h1>User Panel</h1>
+</header>
+
+<nav>
+    <ul>
+      <li><a (click)="showfilecomplaint()">File Complaint</a></li>
+      <li><a (click)="showcomplaintstatus()">View Status</a></li>
+    </ul>
+  </nav>
+
+<app-filecomplaint  *ngIf="showfile"></app-filecomplaint>  
+<app-viewstatususer *ngIf="showstatus"></app-viewstatususer>
+</body>  
