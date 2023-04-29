@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Complaint Filing Page</title>
+	
+</head>
+<body>
+	<div class="container">
+		<h1>File a Complaint</h1>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" [(ngModel)]="name" id="name" name="name" required>
+
+			<label for="title">Title:</label>
+			<input type="text" [(ngModel)]="title" id="title" name="title" required>
+
+			<label for="description">Description:</label>
+			<textarea id="description" [(ngModel)]="description" name="description" rows="5" required></textarea>
+
+			<button (click)="addData()" type="submit">Submit</button>
+		</form>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+
+</body>
+</html>

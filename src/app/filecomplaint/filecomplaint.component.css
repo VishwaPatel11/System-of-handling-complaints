@@ -1,0 +1,51 @@
+
+
+.container {
+	padding: 30px;
+	margin: 50px auto;
+	max-width: 600px;
+	box-shadow: 0 0 10px rgb(251, 249, 249);
+	border-radius: 10px;
+	background-color:#000000;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(179, 74, 74);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 20px;
+	font-size: 18px;
+	color: rgb(179, 74, 74);
+}
+
+input, textarea {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button[type=submit] {
+	background-color: rgb(179, 74, 74);
+	color: #000000d2;
+	border: none;
+	border-radius: 4px;
+	padding: 10px;
+	margin-top: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button[type=submit]:hover {
+	background-color: rgb(255, 127, 127);
+}
+body{
+	background-color:#000000;
+}
