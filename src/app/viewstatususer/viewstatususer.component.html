@@ -1,0 +1,15 @@
+	<div class="container">
+		<h1>Check Complaint Status</h1>
+		<form>
+			<label for="complain-id">Complaint ID:</label>
+			<input type="text" [(ngModel)]="id" id="complain-id" name="complain-id">
+			<input type="submit"  (click)="searchData()" >
+		</form>
+		<div id="status-container">
+            <p *ngIf="showcompleted">Complain is completed</p>
+            <p *ngIf="showpending">Complain is Pending</p>
+            <p *ngIf="showvalue">Invalid Id</p>
+			 
+		</div>
+	</div>
+	<br>
