@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color:black;
+}
+
+header {
+  background-color: rgb(179, 74, 74);
+  color: #fff;
+  padding: 20px;
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+/* Main styles */
+main {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+
+.main-content {
+  flex-basis: 70%;
+}
+
+.sidebar {
+  flex-basis: 30%;
+  padding: 0 20px;
+}
+
+/* Admin section */
+.admin {
+  background-color: #000000d2;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  color: #f2f2f2;
+}
+
+.admin h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.admin p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* User section */
+.user {
+  background-color: #000000d2;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  color: #f2f2f2;
+
+}
+
+.user h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.user p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.form-group button[type="submit"] {
+  background-color: #007bff;
+  color: #fffcfc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-group button[type="submit"]:hover {
+  background-color: #007bff;
+}
+
+a{
+  text-decoration: none;
+}
