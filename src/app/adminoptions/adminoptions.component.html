@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Panel</title>
+	
+</head>
+<body>
+	<header>
+		<h1>Admin Panel</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a (click)="viewcomplaints()">View all Complaints</a></li>
+			<li><a (click)="viewstatuscomp()">Change status of Complaint to completed</a></li>
+		</ul>
+
+	</nav>
+	<app-viewcomplaint *ngIf="viewcomp"></app-viewcomplaint>
+	<app-changestatus *ngIf="viewstatus"></app-changestatus>
+	
+	
+	
+
+	<footer>
+		<p>&copy; 2023 All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
